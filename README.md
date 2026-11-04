@@ -1,1 +1,1 @@
-# Onboarding-Guide-for-First-Year-Students
+This is an interactive onboarding guide for first-year ux students! It is a resource hub tailored for incoming freshman or transfer students in ux design, offering design tool guides, portfolio tips, and club events.
