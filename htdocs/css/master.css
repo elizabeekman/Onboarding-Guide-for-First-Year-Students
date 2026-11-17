@@ -1,0 +1,45 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the main navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Pushes logo left and links right */
+  align-items: center;
+  background-color: #333;
+  padding: 15px 30px;
+}
+
+/* Style the brand logo */
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Arrange the list items horizontally */
+.nav-links {
+  list-style: none; /* Removes bullet points */
+  display: flex;
+  gap: 20px; /* Adds space between links */
+}
+
+/* Style the individual links */
+.nav-links a {
+  color: white;
+  text-decoration: none; /* Removes underlines */
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+/* Add a hover effect */
+.nav-links a:hover {
+  background-color: #555;
+}
